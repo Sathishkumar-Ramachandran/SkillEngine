@@ -1,16 +1,20 @@
 import './App.css';
+import LeftNav from './components/LeftNav/leftNavBar';
 import Header from './components/TopNav/Header';
 import Auth from './pages/auth';
 
-import AppsOutlinedIcon from '@mui/icons-material/AppsOutlined';
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      {/* <Auth /> */}
+    <div>
+    <Header />
+    <LeftNav />
     </div>
+    // <div className="App">
+      
+    //   {/* <Auth /> */}
+    // </div>
   );
 }
 

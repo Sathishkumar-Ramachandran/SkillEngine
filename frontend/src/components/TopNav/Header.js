@@ -1,17 +1,16 @@
 import React from 'react';
 import header from '../../Styles/header.module.css';
 import { AiOutlineBell,  AiOutlineSearch,AiOutlineCheckCircle, AiOutlineUser } from 'react-icons/ai';
-import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 const Header = () => {
   return (
     <header className={`${header.header}`}>
-      <div className={`${header.header__left}`}>
+      
+      {/* <div className={`${header.header__left}`}> */}
         <a href="/" className={`${header.header__logo}`}>OptimAI</a>
-        
         <div className={`${header.header__search}`}>
           <input type="text" placeholder="Search" />
           <button type="button">Search</button>
-        </div>
+        
       </div>
       <div className={`${header.header__right}`}>
         {/* <ul className={`${header.header__nav}`}>
@@ -25,10 +24,10 @@ const Header = () => {
           <li><a href="#">Profile</a></li>
           <li><a href="#">Logout</a></li>
         </ul>
-        <ul className={`${header.header__quickaccess}`}>
+        {/* <ul className={`${header.header__quickaccess}`}>
           <li><a href="#"><i className={`${header.header__icon} fa fa-bell`}></i> Notifications</a></li>
           <li><a href="#"><i className={`${header.header__icon} fa fa-envelope`}></i> Messages</a></li>
-        </ul>
+        </ul> */}
       </div>
     </header>
   );

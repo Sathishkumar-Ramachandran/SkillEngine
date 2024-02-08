@@ -1,6 +1,9 @@
 import React from 'react';
 import header from '../../Styles/header.module.css';
 import { AiOutlineBell,  AiOutlineSearch,AiOutlineCheckCircle, AiOutlineUser } from 'react-icons/ai';
+
+
+
 const Header = () => {
   return (
     <header className={`${header.header}`}>
@@ -19,9 +22,9 @@ const Header = () => {
           <li><a href="#">Contact</a></li>
         </ul> */}
         <ul className={`${header.header__usermenu}`}>
-          <li><a href="#">User Name</a></li>
-          <li><a></a></li>
-          <li><a href="#">Profile</a></li>
+          <li><a href="#"><AiOutlineCheckCircle /></a></li>
+          <li><a><AiOutlineBell /></a></li>
+          <li><a href="#"><AiOutlineUser /></a></li>
           <li><a href="#">Logout</a></li>
         </ul>
         {/* <ul className={`${header.header__quickaccess}`}>

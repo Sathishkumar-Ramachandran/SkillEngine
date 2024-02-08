@@ -16,7 +16,7 @@
 .header__logo {
   font-size: 24px;
   font-weight: bold; 
-  color: #5a5a5a;
+  color: linear-gradient(135deg, rgb(82, 229, 231) 10%, rgb(19, 12, 183) 100%);
   /* color: #333; */
   text-decoration:solid;
 }
@@ -39,7 +39,8 @@
 }
 
 .header__search button {
-  background-color: #4CAF50;
+  background: linear-gradient(135deg, rgb(82, 229, 231) 10%, rgb(19, 12, 183) 100%);
+  /* background-color: #4CAF50; */
   color: white;
   border: none;
   padding: 8px 16px;
@@ -66,7 +67,9 @@
 
 .header__usermenu a:hover,
 .header__quickaccess a:hover {
-  color: #4CAF50;
+  color: black;
+ 
+  /* color: #4CAF50; */
 }
 
 /* Icons styles */

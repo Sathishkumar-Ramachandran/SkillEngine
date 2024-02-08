@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .CompScreen {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .CompScreen::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+  }
+  
+  .CompScreen::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+  }
+  
+  .CompScreen::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+  
+  .OptimBot {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    display: none;
+  }
+  
+  .OptimBot.open {
+    display: block;
+  }

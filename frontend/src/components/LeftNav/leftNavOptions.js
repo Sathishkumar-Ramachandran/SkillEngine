@@ -1,4 +1,7 @@
 import React from "react";
+import { FcTemplate } from "react-icons/fc";
+import { FcDocument } from "react-icons/fc";
+
 
 
 
@@ -9,12 +12,12 @@ const LeftNavOptions = [
         link: "/",
         submenu:[ {
             title: "All Dashboard",
-            icon: <i></i>,
+            icon: <FcTemplate />,
             link: "/"
         },
         {
             title: "Project",
-            icon: <i></i>,
+            icon: <FcDocument />,
             link: "/"
         },
         {

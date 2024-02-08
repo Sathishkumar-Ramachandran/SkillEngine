@@ -1,0 +1,11 @@
+.supportHeader {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    margin: 14px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    background: linear-gradient(135deg, rgb(82, 229, 231) 10%, rgb(19, 12, 183) 100%);
+}

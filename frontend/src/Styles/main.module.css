@@ -1,5 +1,17 @@
-.main {
+.maincomponent {
+  width: 100%;
+  margin: 5%;
+  overflow-y: visible;
+  background-color: white;
+  height: 100vh;
+  border-radius: 10px 10px 0 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} 
+
+
+/* .main {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -8,8 +20,8 @@
   }
   
   .CompScreen {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     background-color: white;
     border-radius: 10px;
     overflow-y: auto;
@@ -48,4 +60,4 @@
   
   .OptimBot.open {
     display: block;
-  }
+  } */

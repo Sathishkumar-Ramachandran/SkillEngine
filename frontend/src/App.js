@@ -9,16 +9,18 @@ import Main from './pages/main';
 
 function App() {
   return (
-    <div>
+    <div className='appmain'>
       <Header />
-      <SupportHeader />
-      
-      <LeftNav />
-      <Main />
+      <SupportHeader  />
+      <div className='maindiv'>     
+        <LeftNav />
+        <Main />
+      </div>
+
     </div>
     // <div className="App">
       
-    //   {/* <Auth /> */}
+    //   <Auth />
     // </div>
   );
 }
